@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fc62fc7-5e59-4dd0-8aa0-dda4386588ea" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="6fc62fc7-5e59-4dd0-8aa0-dda4386588ea" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -53,7 +50,7 @@
       <file leaf-file-name="populatedb.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/populatedb.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
+            <state relative-caret-position="3502">
               <caret line="213" column="5" selection-start-line="213" selection-start-column="5" selection-end-line="213" selection-end-column="5" />
             </state>
           </provider>
@@ -261,11 +258,12 @@
       <workItem from="1543330157793" duration="11000" />
       <workItem from="1543330526380" duration="2281000" />
       <workItem from="1543410937429" duration="1818000" />
+      <workItem from="1543413040236" duration="271000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66593000" />
+    <option name="totallyTimeSpent" value="66864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -274,13 +272,13 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5206972" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -639,7 +637,7 @@
     <entry file="file://$PROJECT_DIR$/yarn.lock" />
     <entry file="file://$PROJECT_DIR$/populatedb.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
+        <state relative-caret-position="3502">
           <caret line="213" column="5" selection-start-line="213" selection-start-column="5" selection-end-line="213" selection-end-column="5" />
         </state>
       </provider>
@@ -647,7 +645,7 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
