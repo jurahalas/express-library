@@ -14,7 +14,7 @@
 
     "build-server": "babel -d ./build ./src -s",
     "build": "yarn run clean && yarn run build-server",
-    "start": "node ./build/index.js"
+    "start": "node ./build/server.js"
 
   },
   "dependencies": {
