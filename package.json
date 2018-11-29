@@ -9,12 +9,11 @@
     "start-dev": "babel-node ./src/server.js",
     "seed": "nodemon --exec babel-node populatedb.js",
 
-      "clean": "rm -rf build && mkdir build",
-      "build-babel": "babel -d ./build ./src -s",
+    "clean": "rm -rf build && mkdir build",
+    "build-babel": "babel -d ./build ./src -s",
+    "build": "yarn run clean && yarn run build-babel",
 
-    "build-server": "babel -d ./build ./src -s",
-    "build": "yarn run clean && yarn run build-server",
-    "start": "node ./build/server.js"
+    "start": "yarn run build && node ./build/server.js"
 
   },
   "dependencies": {
