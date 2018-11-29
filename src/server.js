@@ -22,8 +22,6 @@ mongoose.Promise = global.Promise;
 mongoose.connect(process.env.MONGODB_URL, { useNewUrlParser: true } );
 mongoose.set('useCreateIndex', true);
 
-const port = 8080;
-
 // view engine setup
 server.set('views', path.join(__dirname, 'views'));
 server.set('view engine', 'pug');
@@ -56,4 +54,4 @@ server.use(function(err, req, res, next) {
   res.render('error');
 });
 
-server.listen(port, () => console.log('Running on localhost: 8080'));
+server.listen(process.env.PORT || 3000, () => console.log('Running on localhost: 8080'));
