@@ -26,7 +26,8 @@ exports.index = function(req, res) {
       Genre.countDocuments({}, callback);
     }
   }, (err, results)=> {
-    res.render('index', { title: 'Local Library Home', error: err, data: results });
+   // res.render('index', { title: 'Local Library Home', error: err, data: results });
+    res.status(200).json({ message: 'Local Library Home' });
   });
 };
 // Display list of all books.
