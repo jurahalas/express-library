@@ -16,6 +16,8 @@ dotenv.config();
 
 const server = express();
 
+const PORT = process.env.PORT || 3000;
+
 server.use(helmet());
 
 mongoose.Promise = global.Promise;
@@ -54,4 +56,4 @@ server.use(function(err, req, res, next) {
   res.render('error');
 });
 
-server.listen(process.env.PORT || 3000, () => console.log('Running on localhost: 8080'));
+server.listen(PORT, () => console.log(`Running on localhost: ${ PORT }`));
