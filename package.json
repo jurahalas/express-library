@@ -11,8 +11,6 @@
 
       "clean": "rm -rf build && mkdir build",
       "build-babel": "babel -d ./build ./src -s",
-    //  "build": "yarn run clean && yarn run build-babel",
-      //"start": "yarn run build && node ./build/server.js",
 
     "build-server": "babel -d ./build ./src -s",
     "build": "yarn run clean && yarn run build-css && yarn run build-server",
