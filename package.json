@@ -13,7 +13,7 @@
       "build-babel": "babel -d ./build ./src -s",
 
     "build-server": "babel -d ./build ./src -s",
-    "build": "yarn run clean && yarn run build-css && yarn run build-server",
+    "build": "yarn run clean && yarn run build-server",
     "start": "node ./build/index.js"
 
   },
