@@ -10,8 +10,8 @@
     "seed": "nodemon --exec babel-node populatedb.js",
     "clean": "rm -rf build && mkdir build",
     "build-babel": "babel -d ./build ./src -s",
-    "build": "npm run clean && npm run build-babel",
-    "start": "npm run build && node ./build/server.js",
+    "build": "yarn run clean && yarn run build-babel",
+    "start": "yarn run build && node ./build/server.js",
     "babel-version": "babel --version"
   },
   "dependencies": {
