@@ -8,17 +8,16 @@
   "scripts": {
     "start-dev": "babel-node ./src/server.js",
     "seed": "nodemon --exec babel-node populatedb.js",
-
     "clean": "rm -rf build && mkdir build",
     "build-babel": "babel -d ./build ./src -s",
     "build": "npm run clean && npm run build-babel",
-
     "start": "npm run build && node ./build/server.js",
     "babel-version": "babel --version"
-
   },
   "dependencies": {
     "async": "^2.6.1",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
     "babel-register": "^6.26.0",
     "body-parser": "^1.18.3",
     "compression": "^1.7.3",
@@ -36,8 +35,7 @@
     "morgan": "~1.9.0",
     "npm": "^6.4.1",
     "pug": "^2.0.3",
-    "serve-favicon": "^2.5.0",
-    "babel-cli": "^6.26.0"
+    "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
     "babel-preset-env": "^1.7.0",
